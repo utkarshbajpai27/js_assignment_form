@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript form </title>
+    <link rel="stylesheet" href="js_assignment_form.css">
+    <script src="js_assignment_form.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="Header">
+            <h1>"Weight calculator"</h1>
+            <h2>Enter details to calculate your weight according to your age</h2>
+        </div>
+        <div id="content">
+            <div id="input">
+                <label for="Name" class="input"> Enter Name</label>
+                    <input type="text" id="name"  required>
+                <label for="age" class="input"> Enter age</label>
+                    <input type="text" id="age" required>
+                <label for="weight" class="input"> Enter weight</label>
+                    <input type="text" id="weight" required>
+                <input type="button" id="submit" class="input" value="Click to calculate" onclick="submitForm()">
+            </div>
+            <div>
+                <h1 id="result">Your result will be displayed here after entering details</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
